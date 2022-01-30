@@ -1,8 +1,7 @@
 :root {
-  --rmdp-primary: #0074d9;
-  --rmdp-secondary: #4ca6f5;
+  --rmdp-primary: #6320ee;
+  --rmdp-secondary: #8075ff;
   --rmdp-shadow: #8798ad;
-  --rmdp-today: #7fdbff;
   --rmdp-hover: #7ea6f0;
   --rmdp-border: #cfd8e2;
   --highlight-red-color: #cc0303;
@@ -94,11 +93,6 @@
   justify-content: center;
   flex-direction: column;
   font-size: 14px;
-}
-
-.rmdp-day.rmdp-today span {
-  background-color: var(--rmdp-today);
-  color: white;
 }
 
 .rmdp-day.rmdp-selected span:not(.highlight) {
