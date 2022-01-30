@@ -1,5 +1,5 @@
 {
-  "name": "edu-prog-date-picker",
+  "name": "eduprog-datepicker",
   "version": "3.4.0",
   "description": "a simple React datepicker component for working with gregorian, persian, arabic and indian calendars with the ability to select the date by single, multiple and range pickers.",
   "main": "./build/index.js",
