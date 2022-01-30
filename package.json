@@ -1,7 +1,6 @@
 {
   "name": "eduprog-datepicker",
   "version": "3.4.0",
-  "description": "a simple React datepicker component for working with gregorian, persian, arabic and indian calendars with the ability to select the date by single, multiple and range pickers.",
   "main": "./build/index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -10,42 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edu-prog/react-multi-date-picker.git"
+    "url": "git+https://github.com/edu-prog/eduprog-datepicker.git"
   },
-  "keywords": [
-    "react",
-    "multi",
-    "date",
-    "picker",
-    "datepicker",
-    "rangepicker",
-    "timepicker",
-    "date picker",
-    "range picker",
-    "time picker",
-    "multiple",
-    "range",
-    "time",
-    "gregorian",
-    "calendar",
-    "persian",
-    "jalali",
-    "hijri",
-    "indian",
-    "farsi",
-    "arabic",
-    "english",
-    "hindi",
-    "locales",
-    "datetime",
-    "component"
-  ],
   "author": "Shahab Yazdi <sh.yazdi@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shahabyazdi/react-multi-date-picker/issues"
-  },
-  "homepage": "https://shahabyazdi.github.io/react-multi-date-picker/",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
