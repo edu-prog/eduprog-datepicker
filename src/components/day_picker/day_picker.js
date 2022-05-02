@@ -22,6 +22,7 @@ export default function DayPicker({
   monthAndYears: [monthNames],
   displayWeekNumbers,
   weekNumber = "",
+  disabled
 }) {
   const ref = useRef({}),
     {
@@ -194,6 +195,8 @@ export default function DayPicker({
   function getClassName(object, numberOfMonths) {
     let names = ["rmdp-day"],
       { date, hidden, current } = object;
+
+    console.log(date)
 
     if (!mustDisplayDay(object) || hidden) {
       names.push("rmdp-day-hidden");

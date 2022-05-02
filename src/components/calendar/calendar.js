@@ -67,6 +67,7 @@ function Calendar(
     displayWeekNumbers,
     weekNumber,
     weekPicker,
+    disabledDays,
   },
   outerRef
 ) {
